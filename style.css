@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1800px;
+}
+
+header, nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(68, 38, 2);
+}
+
+header {
+    background-color:  rgb(152, 204, 102);
+    background-image: url(./assets/hands.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 20px;
+}
+
+nav ul {
+    text-align: right;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 20px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 16px;
+}
+
+
+nav a:hover {
+    cursor: pointer;
+    text-shadow: 1px 10px 10px rgb(152, 204, 102);
+    font-weight: bold;
+}
+
+main {
+    margin: auto;
+}
+
+
+
+.hero-img {
+    background-image: url(./assets/homehero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin: auto;
+}
+
+.hero-img h1 {
+    background-color: rgb(68, 38, 2, 0.5);
+    color: white;
+    font-size: 6em;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+.info-container {
+    margin-top: 64px;
+    display: flex;
+   
+}
+
+.info {
+    margin: auto;
+    padding: 12px;
+    width: 50vw;
+}
+
+.info h2 {
+    font-size: 40px;
+}
+
+.info ul {
+    padding: 12px;
+}
+
+.info ul li {
+    font-size: 18px;
+    margin: 18px auto;
+}
+
+.info-img-container {
+    background-image: url(./assets/pepper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 50vw;
+    margin: auto;
+    padding: 24px;
+}
+
+footer {
+    margin: 12px auto;
+    text-align: center;
+}
